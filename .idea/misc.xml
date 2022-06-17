@@ -5,7 +5,7 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_star.xml" value="0.22" />
         <entry key="app/src/main/res/drawable/layout_bg.xml" value="0.187" />
-        <entry key="app/src/main/res/layout/activity_details.xml" value="0.21646341463414634" />
+        <entry key="app/src/main/res/layout/activity_details.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="app/src/main/res/layout/details_container.xml" value="0.33" />

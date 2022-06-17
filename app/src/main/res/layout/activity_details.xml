@@ -19,6 +19,7 @@
             android:layout_height="wrap_content">
             <com.google.android.material.card.MaterialCardView
                 android:layout_margin="8dp"
+                android:id="@+id/basic_info"
                 app:cardBackgroundColor="#1F1F1F"
                 app:cardElevation="8dp"
                 app:strokeColor="#F67E5B"
@@ -86,6 +87,7 @@
             </com.google.android.material.card.MaterialCardView>
             <com.google.android.material.card.MaterialCardView
                 android:layout_margin="8dp"
+                android:id="@+id/plot"
                 app:cardBackgroundColor="#1F1F1F"
                 app:cardElevation="8dp"
                 app:strokeColor="#F67E5B"
@@ -126,10 +128,12 @@
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+
             <com.google.android.material.card.MaterialCardView
                 android:layout_margin="8dp"
                 app:cardBackgroundColor="#1F1F1F"
                 app:cardElevation="8dp"
+                android:id="@+id/basic_info_2"
                 app:strokeColor="#F67E5B"
                 app:strokeWidth="2sp"
                 app:cardCornerRadius="8dp"
@@ -185,9 +189,69 @@
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_margin="8dp"
+                app:cardBackgroundColor="#1F1F1F"
+                app:cardElevation="8dp"
+                android:id="@+id/box_info"
+                app:strokeColor="#F67E5B"
+                app:strokeWidth="2sp"
+                app:cardCornerRadius="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:text="Detalles de taquilla"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView_movie_budget"
+                        android:text="Budget"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textAlignment="textStart"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/textView_movie_opening"
+                        android:text="Opening"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textAlignment="textStart"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/textView_movie_total"
+                        android:text="total"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textAlignment="textStart"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
 
             <com.google.android.material.card.MaterialCardView
-                android:id="@+id/dad"
+                android:id="@+id/cast"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"

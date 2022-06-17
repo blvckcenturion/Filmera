@@ -16,8 +16,8 @@ public class DetailsResponse {
     String genres = "";
     String awards = "";
     String trailer = null;
-
     List<Cast> actorList = null;
+    BoxOffice boxOffice = null;
 
     public String getId() {
         return id;
@@ -66,4 +66,6 @@ public class DetailsResponse {
     public List<Cast> getActorList() {
         return actorList;
     }
+
+    public BoxOffice getBoxOffice() {return boxOffice;}
 }
